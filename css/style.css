@@ -181,7 +181,7 @@
     left: 115px;
 }
 
-.right__content img{
+.right__content img {
     border-radius: 20px;
 }
 
@@ -198,7 +198,7 @@
     text-align: center;
 }
 
-.info__title{
+.info__title {
     font-size: 70px;
     line-height: 80px;
     color: #fff;
@@ -213,7 +213,7 @@
     letter-spacing: .2px;
 }
 
-.bt__titleleftcontent span{
+.bt__titleleftcontent span {
     font-size: 30px;
     color: #fb811e;
 }
@@ -222,26 +222,26 @@
     margin: 0 10px;
 }
 
-.btt__content h4{
+.btt__content h4 {
     font-size: 24px;
     margin-bottom: 10px;
     font-weight: 600;
 }
 
-.btt__content p{
+.btt__content p {
     font-size: 17px;
     line-height: 27px;
     color: #707070;
 }
 
-.tp__titleleftcontent h3{
+.tp__titleleftcontent h3 {
     font-size: 40px;
     line-height: 50px;
     font-weight: 600;
     color: black;
 }
 
-.tp__titleleftcontent p{
+.tp__titleleftcontent p {
     font-size: 17px;
     line-height: 27px;
     color: #707070;
@@ -282,3 +282,104 @@
 }
 
 /*End featurehomepage*/
+
+/*Footer*/
+
+.footer__Contact h3 {
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: black;
+}
+
+.address_Contact {
+    color: #707070;
+}
+
+.address_Contact a {
+    color: unset;
+    text-decoration: none;
+    transition: all 0.3s linear;
+}
+
+.address_Contact a:hover {
+    color: #fb811e;
+    ;
+}
+
+.footer__Logo .logo {
+    font-size: 32px;
+    color: #fb811e;
+    text-decoration: none;
+    transition: all 0.3s linear;
+}
+
+.footer__Logo .logo:hover {
+    color: black;
+}
+
+.footer__Content {
+    font-size: 17px;
+    line-height: 27px;
+    color: #707070;
+}
+
+.footer_Cptext {
+    font-size: 17px;
+    line-height: 27px;
+    color: #707070;
+}
+
+.footer_Cptext a{
+    color: unset;
+    text-decoration: none;
+    transition: all 0.3s linear;
+}
+
+.footer_Cptext a:hover{
+    color: #009f4d;
+}
+
+.footer__Subscribe h3{
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: black;
+}
+
+.footer__Subscribe p{
+    font-size: 17px;
+    line-height: 27px;
+    color: #707070;
+}
+
+.subscribe input{
+    background-color: #f4f4f4;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    outline: none;
+    width: 80%;
+    color: #707070;
+    border: 1px solid #eee;
+    border-radius: 30px 0px 0px 30px;
+}
+
+.subscribe button{
+    padding: 12px 30px;
+    font-size: 16px;
+    border: none;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color: #009f4d;
+    color: #fff;
+}
+
+.subscribe button:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
