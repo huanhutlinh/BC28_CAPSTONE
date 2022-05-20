@@ -182,6 +182,7 @@
 }
 
 .right__content img {
+    max-width: 80%;
     border-radius: 20px;
 }
 
@@ -261,8 +262,8 @@
     box-shadow: 0 0 60px 0 rgb(0 0 0 / 3%);
     background-color: #fff;
     border-radius: 1.0rem;
-    border: none;
-    transition: all 1.0s linear;
+    border: 1px solid transparent;
+    transition: all 1.0s ease;
 }
 
 .right__homepageitem h4 {
