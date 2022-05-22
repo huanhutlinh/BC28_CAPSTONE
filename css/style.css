@@ -106,6 +106,13 @@
     color: #fff;
 }
 
+@media(max-width: 736px) {
+    .bg__Title_Service{
+        bottom: 30%;
+        right: 25%;
+    }
+}
+
 .small__ServiceTitle {
     font-size: 22px;
 }
@@ -205,6 +212,12 @@
     color: #fff;
     font-weight: 600;
 }
+
+@media (max-width: 738px) {
+    .info__box {
+      left: -50px;
+    }
+  }
 
 .right__content p {
     color: #fff;
