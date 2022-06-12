@@ -177,6 +177,62 @@ input:checked+.mode-container i.gg-moon {
 /* header */
 
 
+/* movetop styling */
+
+#movetop {
+    position: fixed;
+    bottom: 90px;
+    right: 15px;
+    z-index: 9;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    background: var(--secondary-color);
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -o-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    padding: 0;
+}
+
+#movetop:hover {
+    opacity: .8;
+}
+
+
+/* //movetop styling */
+
+header.nav-fixed {
+    padding: 0px;
+    border-bottom: none;
+    z-index: 99 !important;
+    background-color: var(--bg-color);
+    box-shadow: 0 3px 6px 0 rgb(0 0 0 / 5%);
+    height: 70px;
+}
+
+header.nav-fixed {
+    padding: 0px;
+    border-bottom: none;
+    z-index: 99 !important;
+    background-color: #fff;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.05);
+    height: 70px;
+    /* for z-index:10 to display gallery popup */
+}
+
+header.nav-fixed nav.navbar.navbar-expand-lg.stroke {
+    box-shadow: none;
+    border-radius: 0px;
+    padding: 0;
+}
+
+
 /* navigation styling */
 
 .inner-header {
